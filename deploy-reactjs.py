@@ -1,7 +1,7 @@
 import shutil
 import os
-REACTJS_APP_SOURCE = "/Volumes/T9/workspace/reactjs-workspace/haru-app/dist/assets"
-REACTJS_APP_TARGET = "/Volumes/T9/workspace/python-workspace/rpcats/public/assets"
+REACTJS_APP_SOURCE = "/Volumes/T9/workspace/reactjs-workspace/haru-app-reactjs/dist/assets"
+REACTJS_APP_TARGET = "/Volumes/T9/workspace/python-workspace/haru-app/public/assets"
 def find_copy():
     print("Copying reactjs app source to reactjs app target")
     for root, dirs, files in os.walk(REACTJS_APP_SOURCE):
